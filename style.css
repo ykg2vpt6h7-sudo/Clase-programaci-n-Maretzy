@@ -1,0 +1,92 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #121212;
+  color: white;
+}
+
+header {
+  text-align: center;
+  padding: 30px;
+  background: linear-gradient(135deg, #6c3df4, #b13df4);
+}
+
+header h1 {
+  margin: 0;
+  font-size: 40px;
+}
+
+header p {
+  margin-top: 8px;
+}
+
+main {
+  max-width: 800px;
+  margin: auto;
+  padding: 30px;
+}
+
+input {
+  width: 100%;
+  padding: 15px;
+  border: none;
+  border-radius: 10px;
+  margin-bottom: 25px;
+  font-size: 16px;
+}
+
+h2 {
+  margin-top: 30px;
+}
+
+.cancion {
+  background-color: #242424;
+  margin: 10px 0;
+  padding: 15px;
+  border-radius: 12px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cancion strong {
+  display: block;
+}
+
+.cancion span {
+  color: #bbbbbb;
+  font-size: 14px;
+}
+
+button {
+  background-color: #8b5cf6;
+  color: white;
+  border: none;
+  padding: 10px 14px;
+  margin-left: 5px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+button:hover {
+  transform: scale(1.05);
+}
+
+#reproduciendo {
+  background-color: #1e1e1e;
+  padding: 20px;
+  border-radius: 15px;
+  text-align: center;
+  margin-top: 30px;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  color: #aaaaaa;
+}
