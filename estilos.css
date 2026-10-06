@@ -1,0 +1,17 @@
+.box {
+    background-color: #f5e6d3;
+    border: 3px solid #800020;
+    padding: 20px;
+}
+
+.box h2 {
+    color: #800020;
+}
+
+.box p {
+    color: #4d4d4d;
+}
+
+.box span {
+    color: rgb(184, 134, 11);
+}
